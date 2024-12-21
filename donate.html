@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="AA1 Q2 CS3">
+		<meta name="keywords" content="HTML, CSS">
+		<meta name="author" content="Jaiden Directo">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> Donate | ATA </title>
+		<link rel="stylesheet" href="donate.css">
+		<link href='https://fonts.googleapis.com/css?family=Anton SC' rel='stylesheet'>
+	</head>
+	
+	<body>
+		<nav class="nav-bar">
+			<div class="logo">
+				<a href="homepage.html">
+					<img src="logo.png">
+				</a>
+			</div>
+			
+			<ul class = "main-links">
+			  <li><a href="homepage.html">Home</a></li>
+			  <li><a href="aboutpage.html">About</a></li>
+			  <li><a href="joinus.html">Join Us!</a></li>
+			</ul>
+			
+			<ul class = "donate-link">
+				<li><a href="donate.html">DONATE</a></li>
+			</ul>
+		</nav>
+		
+		<main>
+			<br><br>
+			<section>
+				<img src="ata-logo-black.png" alt="Logo">
+				<h1> DONATE FOR A CAUSE </h1>
+				<p> Help this cause by sending monetary help that will go far in helping the community. </span> </p>
+				<br>
+				<form>
+					<h3> Personal Information </h3>
+					<label>First name: </label><br>
+					<input type="text" placeholder="e.g. Jaiden Drew"><br>
+					<label>Last name: </label><br>
+					<input type="text" placeholder="e.g. Directo">
+					<label>Email Address: </label><br>
+					<input type="email"  placeholder="whatsyourata@gmail.com">
+					
+					<h3> Credit Card Information </h3>
+					<label> Credit Card Number: </label>
+					<input type="text" maxlength="16" placeholder="e.g 1234 5678 9012 3456" required>
+					<label> Amount To Donate (In PHP): </label>
+					<input type="number" min="0" step="0.01" placeholder="PHP 0.00" required>
+				</form>
+				<p> Once you submit this form, please check out for any emails that may be sent to the email address you have inputted in the form. Thank you for donating! </p>
+				<a href="homepage.html">
+					<button onclick="alert('Thank you for your submission!')">Submit</button>
+				</a>
+			</section>
+			<br><br>
+		</main>
+	</body>
+</html>

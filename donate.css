@@ -1,0 +1,172 @@
+body {
+	font-family: Tahoma , sans-serif;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden; 
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+	background-image: url("donate-background.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.nav-bar {
+	width: 110px; 
+	background-color: #2b3537; 
+	height: 100vh; 
+	position: fixed;
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	top: 0;
+	left: 0;
+  
+}
+
+.nav-bar div {
+	background-color: #1f2729; 
+}
+.nav-bar .logo {
+	display: flex;
+	align-items: center;
+}
+
+.nav-bar .logo img {
+	max-height:110px;
+	width:auto;
+}
+
+.nav-bar ul {
+	list-style-type: none; 
+	padding: 0;
+	margin-block-end: 0;
+}
+
+.nav-bar li{ 
+	display: flex;
+	flex-direction: column;
+	margin-right: 0px;
+}
+
+.nav-bar .donate-link  { 
+	display: flex;
+	flex-direction: column;
+	margin-top: auto;
+
+}
+.nav-bar .donate-link {
+	background-color: #1f2729; 
+	padding: 4px;
+}
+
+.nav-bar .donate-link a { 
+	padding: 15px 21px;
+}
+
+.nav-bar .main-links a {
+	padding: 15px 20px;
+	padding-left: 28px;
+}
+
+.nav-bar li {
+	margin: 0;
+}
+
+.nav-bar a {
+	display: block; 
+	color: white; 
+	text-decoration: none; 
+	transition: background-color 0.3s, transform 0.2s ease;
+	box-sizing: border-box;	
+}
+
+.nav-bar .main-links a:hover {
+	background-color: #485d61; 
+	transform: scale(1.1);
+	transition: opacity 0.5s ease, transform 0.2s ease;
+	margin: 0;
+  
+}
+
+.nav-bar .donate-link a:hover {
+	background-color: #485d61; 
+	transform: scale(1.1);
+	transition: opacity 0.5s ease, transform 0.2s ease;
+	margin: 0;
+  
+}
+
+section{
+	background-color:#f7f7f7;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+	align-items: center;
+	margin-left: 110px;
+	width: 750px;
+	height; 100vh;
+	border-radius: 10px;
+	padding-bottom: 20px;
+
+}
+
+h1 {
+	color: #292929;
+	text-align: center;
+	font-size: 1.5em;
+	padding-top:10px;
+	padding-bottom: 0;
+	margin: 0;
+}
+
+p {
+	font-size: 15px;
+	font-style: italic;
+	color: #3d3d3d;
+	text-align: center;
+	padding: 10px;
+}
+
+label, input {
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+
+input {	
+	width: 680px;
+	border: 0;
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+input:focus {
+	background-color: #b0dbff;
+}
+
+input:focus:invalid {
+	outline: none;
+    border-color: #ff3b3b;
+}
+
+section img {
+	width: 50%;
+	height: 50%;
+	transform: translate(45%, 0);
+	padding-top: 10px;
+}
+
+span {
+	color: #ba0000;
+}
+
+button {
+
+	width: 60px;
+	height: 30px;
+	text-align: center;
+	background-color: #b0dbff;
+	transform: translate(325px, 0);
+}
+h3 {
+	padding-left: 30px;
+}
+
